@@ -1,0 +1,79 @@
+#collegeTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+input[type="text"],
+button {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #6abedf;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #168ef7;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ccc;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #666;
+    color: white;
+    cursor: pointer;
+}
+
+th i {
+    margin-left: 5px;
+    color: #ddd;
+}
+
+table tr:nth-child(2n+1) {
+    background-color: lightgrey;
+}
+
+#loading {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #666;
+}
+
+.hidden {
+    display: none;
+}
+
+#collegeTable th,
+#collegeTable td {
+    border: 1px solid black;
+    padding: 8px;
+    height: 100px;
+}
